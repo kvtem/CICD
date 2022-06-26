@@ -14,8 +14,13 @@ public class ConrolObject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        //demo 02
+        if (Input.GetMouseButtonUp(0)) transform.GetComponent<MeshRenderer>().material.color = Random.ColorHSV(0, 1);
+
         //Demo 01
         RotateObject();
+
     }
 
     void RotateObject() => transform.Rotate(Vector3.up, Time.deltaTime * speed);
