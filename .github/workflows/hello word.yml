@@ -1,5 +1,6 @@
 name: hello word 
 on: 
+ workflow_dispatch:
  push: 
    paths:
      - '!README.md'
@@ -9,7 +10,7 @@ on:
    - 'main'
    - 'demo1'
    - '!demo2'
- workflow_dispatch:
+
 jobs: 
   say-hello:
     runs-on: ubuntu-latest
