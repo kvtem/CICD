@@ -9,7 +9,8 @@ on:
    - 'main'
    - 'demo01'
    - '!demo02'
-   workflow_dispatch
+   workflow_dispatch:
+   
 jobs: 
   say-hello:
     runs-on: ubuntu-latest
