@@ -1,14 +1,14 @@
 name: hello word 
 on: 
  push: 
-   paths:
-     - '!README.md'
-     - '!doc/**'     
-     - '**.cs'     
+#    paths:
+#      - '!README.md'
+#      - '!doc/**'     
+#      - '**.cs'     
    branches: 
    - 'main'
-   - 'demo1'
-   - '!demo2'
+   - 'demo01'
+   - '!demo02'
 jobs: 
   say-hello:
     runs-on: ubuntu-latest
