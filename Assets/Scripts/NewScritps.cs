@@ -13,6 +13,6 @@ public class NewScritps : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //update every frame
     }
 }
