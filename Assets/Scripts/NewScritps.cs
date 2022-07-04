@@ -18,6 +18,6 @@ public class NewScritps : MonoBehaviour
 
     public void Rotatetion()
     {
-
+       // transform.LookAt();
     }
 }
