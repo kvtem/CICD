@@ -7,8 +7,8 @@ on:
      - '**.cs'     
    branches: 
    - 'main'
-   - 'demo1'
-   - '!demo2'
+   - 'demo01'
+   - '!demo02'
 jobs: 
   say-hello:
     runs-on: ubuntu-latest
